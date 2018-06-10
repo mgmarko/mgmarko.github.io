@@ -13,6 +13,10 @@ h2.majormiddle {
 	align: center;
 	text-align: center;
 }
+.nocsssupport {
+	visibility: none;
+	display: none;
+}
 
 /* Reset */
 
