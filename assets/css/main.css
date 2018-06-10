@@ -16,6 +16,8 @@ h2.majormiddle {
 .nocsssupport {
 	visibility: hidden;
 	display: none;
+	width: 0%;
+	height: 0%
 }
 
 /* Reset */
