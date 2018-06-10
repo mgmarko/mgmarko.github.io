@@ -14,7 +14,7 @@ h2.majormiddle {
 	text-align: center;
 }
 .nocsssupport {
-	visibility: none;
+	visibility: hidden;
 	display: none;
 }
 
