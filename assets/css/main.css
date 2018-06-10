@@ -1513,6 +1513,7 @@ h2.majormiddle {
 
 			#main article .close {
 				display: block;
+				visibility: visible;
 				position: absolute;
 				top: 0;
 				right: 0;
@@ -1525,6 +1526,7 @@ h2.majormiddle {
 			}
 
 				#main article .close:before {
+					visibility: visible;
 					-moz-transition: background-color 0.2s ease-in-out;
 					-webkit-transition: background-color 0.2s ease-in-out;
 					-ms-transition: background-color 0.2s ease-in-out;
