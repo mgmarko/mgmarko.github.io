@@ -11,14 +11,79 @@
 		<link rel="shortcut icon" href="images/MGSploit.ico"/>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/loader.css"/>
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="assets/css/noscript.css"/>
+			<style>
+			#wrapper {
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				visibility: visible;
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				-moz-align-items: center;
+				-webkit-align-items: center;
+				-ms-align-items: center;
+				align-items: center;
+				-moz-justify-content: space-between;
+				-webkit-justify-content: space-between;
+				-ms-justify-content: space-between;
+				justify-content: space-between;
+				position: relative;
+				min-height: 100vh;
+				width: 100%;
+				padding: 4rem 2rem;
+				z-index: 3;
+			}
+			#loader1 {
+				visibility: hidden;
+				display: none;
+			}
+			</style>
+		</noscript>
+		<script>
+		function loaddone() {
+var link = document.createElement('link');
+link.setAttribute('rel', 'stylesheet');
+link.setAttribute('type', 'text/css');
+link.setAttribute('href', 'assets/css/main.css');
+document.getElementsByTagName('head')[0].appendChild(link);
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5b1d9553b6f27c3410a4de23/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+}
+</script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+
+</script>
+<!--End of Tawk.to Script-->
+<script>
+window.onload = function() {
+    loaddone(); // Your function call
+};
+</script>
+		<!--<link rel="stylesheet" href="assets/css/main.css" />-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 	<body>
+		<div id="loader1" class="loader">
+		<div class="lds-ring" id="loader2"><div></div><div></div><div></div><div></div></div>
+	</div>
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper" class="hidewhenloading">
 
 				<!-- Header -->
 					<header id="header">
@@ -28,7 +93,7 @@
 						<div class="content">
 							<div class="inner">
 								<h1>MGSploit - Roblox exploit</h1>
-								<h1 class="nocsssupport">Updrage your browser! Your dont support css!</h1>
+								<h1 class="nocsssupport">PAGE CANT LOAD CORRECTLY BECAUSE YOUR BROWSER DONT SUPPORTS JAVASCRIPT OR CSS! DOWNLOAD CHROME OR IF YOU USING ANONIMIZER CLICK ENABLE JAVASCRIPT<h1>
 								<p>MGSploit is a free Roblox exploit with a lot of teleports for different games, some jailbreak cheats like bypassed walkspeed and infinite nitro, limited lua, lua c, script hub, and tp to player!</p>
 							</div>
 						</div>

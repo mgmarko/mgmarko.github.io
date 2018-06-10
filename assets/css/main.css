@@ -19,6 +19,11 @@ h2.majormiddle {
 	width: 0%;
 	height: 0%
 }
+#loader1 {
+  visibility: hidden;
+	display: none;
+}
+
 
 /* Reset */
 
@@ -1133,6 +1138,7 @@ h2.majormiddle {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		visibility: visible;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
